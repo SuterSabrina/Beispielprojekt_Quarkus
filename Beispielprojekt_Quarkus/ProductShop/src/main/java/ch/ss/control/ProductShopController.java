@@ -17,7 +17,7 @@ public class ProductShopController {
     private List<Product> productList;
 
     @PostConstruct
-    private void init() {
+    void init() {
         this.productList = new ArrayList<>();
         this.productList.add(new Drink("Ice Tea", 1.20, 1, 250));
         this.productList.add(new Drink("Coca Cola", 1.30, 1, 250));

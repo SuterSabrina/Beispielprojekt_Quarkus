@@ -26,7 +26,7 @@ public class ProductShopControllerTest {
     private Food food;
 
     @BeforeEach
-    private void init() {
+   void init() {
         this.productShopController = mock(ProductShopController.class);
 
         this.productList = new ArrayList<>();
